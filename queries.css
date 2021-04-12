@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1023px) {
+     body,html{
+        overflow-x: hidden;
+         margin:0;
+         padding: 0;
+    }
+    .first-logo{
+        display:none;
+    }
+    .header{
+        width:100%;
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    .container{
+        display:flex;
+        flex-direction:column;
+    }
+    .main -image{
+        width:70%;
+        height: auto;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .form{
+        width:50%;
+        height: auto;
+        margin-left:10px;
+    }
+    .steps-box p{
+margin-top: 10px;
+font-size: 15px;
+line-height: 20px;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+    body,html{
+        overflow-x: hidden;
+    }
+    
+    .header{
+        margin:0;
+        padding:10px;
+    }
+    .first-image{
+        width:75%;
+        height:auto;
+    }
+    h1{  font-size: 20px; }
+    .first-text{
+        font-size:12px;
+        margin-top: 0;
+        width:100%;
+    }
+    .main-image{
+        width:100%;
+        height:auto;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .form{
+        width:100%;
+        margin:0;
+    }
+  /*-----  section 1----------*/  
+    
+    .first-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .person-image{
+        padding-left: 7px;
+    }
+    .first-section{
+        margin:0;
+        padding:0;
+        height: 200px;
+    }
+    .sub-container p{
+        width:100%;
+        font-size:12px;
+    }
+    .first-logo{
+        display:none;
+        width:auto;
+        height:60px;
+       position: absolute;
+        top: 98%;
+        left:50%;
+        margin-top: 60px;
+    }
+    /*-----  section 2----------*/ 
+    .container-steps{
+        padding-right: 0;
+        margin-left:0;
+        padding-left: 4px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .steps-box{
+        width:100%;
+    }
+    .steps-box p{
+font-size: 16px;
+line-height: 20px;
+}
+    .session-details{
+        width: 100%;
+        margin-left:0;
+        padding-left:4px;;
+    }
+    
+    .container-steps{
+    margin-bottom: 0;
+}
+     /*-----  footer----------*/
+    .footer{
+    height:300px;
+}
+    .footer-background{
+    display: inline-block;
+    width:70%;
+}
+    .eagleview{
+        width:85%;
+        height:auto;
+    }
+}
